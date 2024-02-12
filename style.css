@@ -556,6 +556,7 @@ button {
 }
 button:nth-child(1) {
     margin-left: -200px;
+    margin-bottom: -200px;
     background: #7d2ae8;
 }
 button:nth-child(2) {
