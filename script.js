@@ -8,11 +8,11 @@ function showNoMessage() {
   const can1Image = document.getElementById("can1");
 
   const noButtonTexts = [
-    "Are you sure?",
-    "Please",
-    "Pretty please",
-    ":(((((",
-    "I'm begging you"
+    "Kamu yakin?",
+    "Yakin",
+    "Yakin Banget nih ?",
+    "Pleasee",
+    "Pleassee sayaang"
   ];
 
   if (noButtonTextIndex < noButtonTexts.length) {
@@ -36,7 +36,7 @@ function showYesMessage() {
   const can1Image = document.getElementById("can1");
 
   valentineQuestion.innerText =
-    "Korique dapat yes agad!! Happy Valentine's mwaps labyu";
+    "Terima kasih sayang";
   noButton.style.display = "none";
   yesButton.style.display = "none";
 
